@@ -1,7 +1,7 @@
 # tests/test_app.py
 
 import unittest
-from app import app  # adjust the import based on where your app is defined
+from flask_web_app.app import app  # adjust the import based on where your app is defined
 
 class FlaskAppTests(unittest.TestCase):
 
